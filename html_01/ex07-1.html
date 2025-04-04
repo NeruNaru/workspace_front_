@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>htmls 공부하기</title>
+        <body>
+            <ul>
+                <li>
+                    <a href="./ex01.html">h1~h6요소</a>
+                </li>
+                <li>
+                    <a href="./ex02.html"> br, blockquote, q, strong, em 요소</a>
+                </li>
+                <li>
+                    <a href="./ex03.html">ol, ul, li 요소</a>
+                </li>
+                <li>
+                    <a href="./ex04.html">img, a 요소</a>
+                </li>
+                <li>
+                    <a href="./ex05.html">table 요소</a>
+                </li>
+                <li>
+                    <a href="./ex07.html"> 테이블-게시판예제</a>
+                </li>
+                <li>
+                    <a href="./ex07-1.html">절대경로, 상대경로</a>
+                </li>
+            </ul>
+            <hr>
+
+            <h1>html공부</h1>
+            <h2>절대경로와 상대경로</h2>
+            <h3>ex09의 위치=C:/javaStudy/workspace_front/html_01/ex09.html</h3>
+
+            <h3>절대경로</h3><br>
+            C:/javaStudy/workspace_front/img/yoo.jpg<br>
+            <img src="C:\javaStudy\workspace_front\img\yoo.jpg">
+
+            <hr>
+
+            <h3>상대경로</h3><br>
+            ./img/jung.jpg<br>
+            현재 ex09의 위치가 html_01파일에 위치하고 있고,
+            img파일은 workspace_front파일에 위치하고 있기 때문에,
+            이미지 파일을 찾지 못하는 것.<br>
+            <img src="./img/jung.jpg">
+            <br><br>
+            img/yoo.jpg<br>
+            <img src="workspace_front/img/yoo.jpg">
+
+            <hr>
+            
+            <h3>상위폴더</h3> 이동<br>
+            <img src="../img/yoo.jpg">
+        </body>
+    </head>
+</html> 
