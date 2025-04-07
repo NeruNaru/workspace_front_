@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+         <link rel="stylesheet" href="./ex20.css">
+    </head>
+
+    <body>
+        <div class="wrap">
+
+            <!-- h1 사이트명, h2 고객센터 -->
+            <h3 class="dev-form">일반게시판</h3>
+            <div>
+                <ul>
+                    <li>홈</li>
+                    <li>게시판</li>
+                    <li>일반게시판</li>
+                </ul>
+            </div>
+
+            <br>
+
+            <div class="dev-form">
+                <label class="click-for-txt" for="select-board">게시판선택</label>
+                <select id="select-board">
+                    <option>선택해주세요</option>
+                    <option>공지사항</option>
+                    <option>가입인사</option>
+                    <option>유머게시판</option>
+                    <option>기타게시판</option>
+                </select>
+            </div>
+
+            <div class="dev-form">
+                <label class="click-for-txt" for="txt-title">제목</label>
+                <input id="txt-title" type="text" placeholder="제목을 입력해 주세요">
+            </div>
+
+            <div class="dev-form">
+                <label class="click-for-txt" for="txt-password">비밀번호</label>
+                <input id="txt-password" type="password" placeholder="패스워드를 입력하세요">
+            </div>
+
+            <div class="dev-form">
+                <span class="click-for-txt">공개범위</span>
+                <label for="principal">본인</label>
+                <input id="principal" type="radio" name="privacy-relationship">
+                <label for="login-member">로그인회원</label>
+                <input id="login-member" type="radio" name="privacy-relationship">
+                <label for="friends">친구</label>
+                <input id="friends" type="radio" name="privacy-relationship">
+                <label for="entirety">전체</label>
+                <input id="entirety" type="radio" name="privacy-relationship">
+            </div>
+
+            <div class="dev-form">
+                <span class="click-for-txt">허용범위</span>
+                <label for="comment-permission">댓글허용</label>
+                <input id="comment-permission" type="checkbox" name="permission-relationship">
+                <label for="reply-permission">답글허용</label>
+                <input id="reply-permission" type="checkbox" name="permission-relationship">
+                <label for="like-permission">좋아요허용</label>
+                <input id="like-permission" type="checkbox" name="permission-relationship">
+            </div>
+
+            <div>
+                <textarea name="content"></textarea>
+            </div>
+
+            <div>
+                <span class="click-for-txt">첨부파일</span>
+                <input id="select-file" type="file">
+                
+            </div>
+
+            <div class="center-button">
+                <button id="register">등 록</button>
+                <button id="cancel" type="reset">초기화</button>
+            </div>
+        </div>
+    </body>
+
+</html>
