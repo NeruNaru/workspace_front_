@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.dev-border{
+    border: 1px solid black;
+}
+
+body{
+    background-color: ivory;
+}
+
+.top-banner{
+    background-color: #f5f5dc;
+}
+
+.head-banner{
+    width: 1350px;
+    height: 200px;
+    
+    display: inline-block;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px 0px 0px 6px;
+}
+
+ul>li{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+#Study-coding{
+    width: 260px;
+    height: 200px;
+
+    position: relative;
+    
+}
+
+#HOME{
+    width: 260px;
+    height: 200px;
+}
+
+#Project{
+    width: 260px;
+    height: 200px;
+}
+
+#Research{
+    width: 260px;
+    height: 200px;
+}
+
+#About{
+    width: 260px;
+    height: 200px;
+}
