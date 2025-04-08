@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body{
+    background-color: #808080;
+    font-family: "맑은고딕";
+    font-size: 12px;
+}
+
+.form-all{
+    width: 600px;
+    background-color: white;
+}
+
+body h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-title{
+    vertical-align: middle;
+    display: inline-block;
+    width: 120px;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.form-border{
+    border-bottom: 1px solid black;
+    margin: 5px 0px 5px 0px;
+}
+
+input, select, textarea{
+    font-family: "맑은고딕";
+    font-size: 15px;
+}
+
+#detailed-address{
+    width: 400px;
+}
+
+/* clearfix */
+.clearfix{
+    zoom:1;
+}
+.clearfix::before, .clearfix::after {
+    display: block; content: ""; line-height: 0;
+}
+.clearfix::after {
+    clear: both;
+}
+
+ol{
+    list-style: none;
+}
+
+ol>li{
+    float: left;
+    border: 1px solid black;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+}

@@ -6,6 +6,12 @@ ul, li, dl, dt, ol,
 h1, h2, h3, h4, h5, h6,
 input, button, select, textarea, fieldset, legend,
 p, table, th, td, tr */
+
+textarea, input, select{
+    font-family: inherit;
+    font-size: inherit;
+}
+
 body{
     background-color: #808080;
     font-family: "맑은 고딕";
@@ -28,7 +34,7 @@ ul>li{
     margin-left: 5px;
 }
 
-li::after{
+.wrap ol>li::after{
     content: ">";
     padding-left: 5px;
 }
