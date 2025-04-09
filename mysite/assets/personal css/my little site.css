@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* Layout */
+#wrap {
+    border: 1px solid black;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    border: 1px solid black;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex; /* Flexbox를 사용하여 자식 요소들을 가로로 배치 */
+    justify-content: space-between; /* 아이콘은 왼쪽, 메뉴는 오른쪽에 배치 */
+    align-items: center; /* 세로로 가운데 정렬 */
+}
+
+/* Header */
+header>#main_site_icon {
+    flex-shrink: 0; /* 이미지가 크기 조정에 영향을 받지 않도록 설정 */
+}
+
+header>#main_site_icon img {
+    width: 100px; /* 아이콘 크기 */
+    height: 100px;
+}
+
+/* nav */
+#head_menu {
+    display: flex;
+    list-style: none; /* 기본 리스트 스타일 제거 */
+    padding: 0; /* 기본 여백 제거 */
+    margin: 0; /* 기본 여백 제거 */
+}
+
+#head_menu li {
+    margin-left: 20px; /* 메뉴 항목 사이에 간격 추가 */
+}
+
+#head_menu a {
+    text-decoration: none; /* 링크의 기본 밑줄 제거 */
+    color: black; /* 기본 글자 색 */
+}
+
+/* clearfix */
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix::before, .clearfix::after {
+    display: block;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix::after {
+    clear: both;
+}
