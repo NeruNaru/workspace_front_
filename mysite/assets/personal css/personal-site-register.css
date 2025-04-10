@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* Layout */
+
+header>div>a>img{
+    display: flex;
+    margin: 100px auto 0px auto;
+}
+
+/* Layout end */
+
+/* Header */
+#contour{
+    margin: 0px auto;
+
+    width: 1000px;
+    height: 10px;
+}
+/* Header end */
+
+/* content */
+#content-register{
+    width: 400px;
+    height: 600px;
+    margin: 20px auto 5px auto;
+    padding: 30px;
+
+    border: 1px solid #828282;
+    border-radius: 5%;
+}
+
+.register{
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+
+    border-bottom: 3px solid black;
+}
+
+#register-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+#register-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+#register-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+#register-3>select{
+    color: gray;
+}
+
+#register-1>input,
+#register-2>input,
+#register-3>input,
+#register-3>select{
+    font-size: 30px;
+}
+
+#Im-not-robot-1{
+    width: 380px;
+    height: 100px;
+
+    margin-top: 20px;
+}
+
+#register-button{
+    height: 52px;
+    text-align: center;
+
+    margin-top: 40px;
+}
+
+#register-button>a{
+    display: inline-block;
+    width: 360px;
+    height: 50px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+
+    border: 1px solid #828282;
+    border-radius: 5px;
+    background-color: #828282;
+    line-height: 48px;
+}

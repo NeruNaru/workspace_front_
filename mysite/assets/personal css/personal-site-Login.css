@@ -45,6 +45,15 @@ footer{
 
 /* content */
 
+.login{
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+
+    border-bottom: 3px solid black;
+}
+
 #login-area>#login-id>#ID,
 #login-area>#login-password>#password{
     text-align: left;
@@ -55,15 +64,6 @@ footer{
 #login-area>#login-id,
 #login-area>#login-password{
     border: 1px solid #828282;
-}
-
-.login{
-    padding-bottom: 15px;
-    text-align: center;
-    font-size: 44px;
-    font-weight: bold;
-
-    border-bottom: 3px solid black;
 }
 
 #access-button{
