@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+/* HOME animation */
+#HOME{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition:  color 0.3s ease;
+}
+
+#HOME:hover{
+    color: transparent;
+}
+
+#HOME::before{
+    content: attr(data-hover);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 25px;
+    color: #29D4C1;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: top 0.3s ease, opacity 0.3s ease;
+    pointer-events: none;
+}
+
+#HOME:hover::before{
+    top: 0;
+    opacity: 1;
+}
+
+/* HOME animation end */
+
+/* CODE animation */
+#CODE{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition:  color 0.3s ease;
+}
+
+#CODE:hover{
+    color: transparent;
+}
+
+#CODE::before{
+    content: attr(data-hover);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 25px;
+    color: #29D4C1;
+    text-align: center;
+    width: 120%;
+    opacity: 0;
+    transition: top 0.3s ease, opacity 0.3s ease;
+    pointer-events: none;
+}
+
+#CODE:hover::before{
+    top: 0;
+    opacity: 1;
+}
+/* CODE animation end */
+
+/* RESEARCH animation */
+#RESEARCH{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition:  color 0.3s ease;
+}
+
+#RESEARCH:hover{
+    color: transparent;
+}
+
+#RESEARCH::before{
+    content: attr(data-hover);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 25px;
+    color: #29D4C1;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: top 0.3s ease, opacity 0.3s ease;
+    pointer-events: none;
+}
+
+#RESEARCH:hover::before{
+    top: 0;
+    opacity: 1;
+}
+/* RESEARCH animation end */
+
+/* ABOUT-ME animation */
+#ABOUT-ME{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition:  color 0.3s ease;
+}
+
+#ABOUT-ME:hover{
+    color: transparent;
+}
+
+#ABOUT-ME::before{
+    content: attr(data-hover);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 25px;
+    color: #29D4C1;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: top 0.3s ease, opacity 0.3s ease;
+    pointer-events: none;
+}
+
+#ABOUT-ME:hover::before{
+    top: 0;
+    opacity: 1;
+}
+/* ABOUT-ME animation end */

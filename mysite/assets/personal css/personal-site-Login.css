@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* Layout */
+
+
+header>div>a>img{
+    display: flex;
+    margin: 100px auto 0px auto;
+}
+
+#content-login{
+    width: 400px;
+    height: 250px;
+    margin: 20px auto 5px auto;
+    padding: 30px;
+
+    border: 1px solid #828282;
+    border-radius: 5%;
+}
+
+#login-area{
+    width: 400px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;      /* input들을 세로로 배치 */
+    align-items: center;         /* 가로 중앙 정렬 */
+    justify-content: center;
+}
+
+footer{
+    width: 1000px;
+}
+/* Layout end */
+
+/* header */
+
+#contour{
+    margin: 0px auto;
+
+    width: 1000px;
+    height: 10px;
+}
+/* header end */
+
+/* content */
+
+#login-area>#login-id>#ID,
+#login-area>#login-password>#password{
+    text-align: left;
+    font-size: 30px;
+    border: none;
+}
+
+#login-area>#login-id,
+#login-area>#login-password{
+    border: 1px solid #828282;
+}
+
+.login{
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+
+    border-bottom: 3px solid black;
+}
+
+#access-button{
+    height: 52px;
+    text-align: center;
+}
+
+#access-button>a{
+    display: inline-block;
+    width: 360px;
+    height: 50px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+
+    border: 1px solid #828282;
+    border-radius: 5px;
+    background-color: #828282;
+    line-height: 48px;
+}
+
+#create-account{
+    margin: 0px auto;
+    width: 1000px;
+    text-align: center;
+    font-size: 12px;
+    color: darkgray;
+}
+
+#create-account>a{
+    padding-left: 3px;
+    padding-right: 3px;
+    border-right: 1px solid darkgray;
+}
+
+#create-account>a:last-child{
+    border-right: none;
+}
