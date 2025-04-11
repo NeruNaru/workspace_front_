@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.container{
+    width: 500px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.container.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.item-1{
+    border: 3px solid red;
+    align-self:  flex-end;
+}
+
+.item-2{
+    border: 3px solid blue;
+}
+
+.item-3{
+    border: 3px solid green;
+    align-self: stretch;
+}
